@@ -1,0 +1,54 @@
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/13/15/44/geometry-5167943_960_720.jpg);
+    background-color: gray;
+    justify-content: center;
+}
+
+.card {
+    width: 400px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.521);
+    border-radius: 10px;
+    margin: 10rem auto;
+    padding: 20px;
+}
+
+form {
+    margin: 1rem auto;
+    text-align:start;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.somas {
+    display: flex;
+    flex-direction: column;
+}
+
+#respostas {
+    display: flex;
+    flex: row;
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+input[type="button"]{
+    width: 100px;
+    height: 20px;
+}
+.input {
+    border: none;
+    width: 200px;
+    border-bottom: 2px solid red;
+    background-color: transparent;
+}
+
+.somas{ 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
